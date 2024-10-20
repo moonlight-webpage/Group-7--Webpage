@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.header h1 {
+    text-align: center;
+    line-height: 100px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.topnav {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #000;
+    overflow: hidden;
+    background-color: #254E7B;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 80px; /* Center links vertically */
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: #254E7B;
+}
+
+.topnav a.active {
+    background-color: #D68F02;
+    color: antiquewhite;
+}
+
+.content {
+    width: 100%; /* Full width */
+    min-height: 400px; /* Ensure some height */
+    background-color: lightyellow; /* Change background color to light yellow */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.image-container {
+    text-align: center; /* Centers the image */
+}
+
+.image-container img {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Auto margins center the image */
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #254E7B;
+}
+
+.footer h1 {
+    text-align: center;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px; /* Adjust padding on smaller screens */
+    }
+}

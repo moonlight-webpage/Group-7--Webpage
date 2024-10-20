@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: lightyellow; /* Added background color */
+    border: 1px solid #000;
+}
+
+.header h1 {
+    text-align: center;
+    line-height: 100px;
+    color: #D68F02; /* Header text color */
+    font-family: 'Comic Sans MS', sans-serif; /* Added font family */
+    font-size: 5em; /* Adjusted font size */
+}
+
+li {
+    list-style-type: none;
+}
+
+.topnav {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: #254E7B;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 80px; /* Center link text vertically */
+}
+
+.topnav a:hover {
+    background-color: antiquewhite;
+    color: #254E7B;
+}
+
+.topnav a.active {
+    background-color: #D68F02;
+    color: antiquewhite;
+}
+
+.content-area {
+    display: flex;
+}
+
+.aside {
+    width: 25%;
+    height: 400px;
+    border: 1px solid #000;
+    background-color: lightyellow;
+}
+
+.aside h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.aside p {
+    font-size: 20px;
+}
+
+.content {
+    width: 75%;
+    height: 400px;
+    border: 1px solid #000;
+    background-color: whitesmoke;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.content p {
+    text-align: left;
+    font-size: 18px; /* Adjusted paragraph font size */
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #254E7B;
+}
+
+.footer h1 {
+    text-align: center;
+    line-height: 100px;
+    color: #f2f2f2; /* Footer text color */
+    font-size: 15px; /* Footer font size */
+}
